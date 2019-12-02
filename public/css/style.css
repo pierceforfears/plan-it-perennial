@@ -1,5 +1,125 @@
+.state a {
+  fill: #d3d3d3;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#us-map {
+  display: block;
+  position: relative;
+  top: 0;
+  left: auto;
+  width: 100%;
+  height: 100%;
+}
+a.southEast:hover {
+  stroke: #88001d !important;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  fill: #88001d !important;
+  cursor: pointer;
+}
+.northEast:hover {
+  stroke: #004eca !important;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  fill: #004eca !important;
+  cursor: pointer;
+}
+.midAtlantic:hover {
+  stroke: #1d1b99 !important;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  fill: #1d1b99 !important;
+  cursor: pointer;
+}
+.greatLakes:hover {
+  stroke: #1b8a99 !important;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  fill: #1b8a99 !important;
+  cursor: pointer;
+}
+.midWest:hover {
+  stroke: #fbff00 !important;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  fill: #fbff00 !important;
+  cursor: pointer;
+}
+.northernPlains:hover {
+  stroke: #bb5252 !important;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  fill: #d82424 !important;
+  cursor: pointer;
+}
+.southernPlains:hover {
+  stroke: #df8107 !important;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  fill: #df8107 !important;
+  cursor: pointer;
+}
+.pacificNorthwest:hover {
+  stroke: #1d7203 !important;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  fill: #1d7203 !important;
+  cursor: pointer;
+}
+.mountain:hover {
+  stroke: #ffffff !important;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  fill: #ffffff !important;
+  cursor: pointer;
+}
+.southWest:hover {
+  stroke: #0999ac !important;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  fill: #0999ac !important;
+  cursor: pointer;
+}
+.california:hover {
+  stroke: #ffd900 !important;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  fill: #ffd900 !important;
+  cursor: pointer;
+}
+.alaska:hover {
+  stroke: #1b6799 !important;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  fill: #1b6799 !important;
+  cursor: pointer;
+}
+.hawaii:hover {
+  stroke: #00ffff !important;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  fill: #00ffff !important;
+  cursor: pointer;
+}
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 2px solid #bf0a30;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: arial;
+
 .footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-}
+
