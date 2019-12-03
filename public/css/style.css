@@ -7,14 +7,6 @@
   align-items: center;
 }
 
-#us-map {
-  /* display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; */
-}
 a.southEast:hover {
   stroke: #d3d3d3 !important;
   stroke-width: 0.5px;
@@ -118,9 +110,14 @@ a.southEast:hover {
   padding: 5px;
   font-family: arial;
 }
+.allContent {
+  min-height: calc(100vh - 50px);
+}
 
 .footer {
-  position: fixed;
-  bottom: 0;
   width: 100%;
+  height: 50px;
+}
+#addFlower {
+  background-color: #1d7203;
 }
