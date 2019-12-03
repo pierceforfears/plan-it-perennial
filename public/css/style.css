@@ -117,9 +117,10 @@ a.southEast:hover {
   border-radius: 5px;
   padding: 5px;
   font-family: arial;
+}
 
 .footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-
+}
