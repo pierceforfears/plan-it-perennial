@@ -1,5 +1,6 @@
 // Dependencies
 var express = require("express");
+var sequelize = require("sequelize");
 
 // Sets up Express
 var app = express();
@@ -25,3 +26,4 @@ db.sequelize.sync().then(function () {
         console.log("App listening on http://localhost:" + PORT);
     });
 });
+
