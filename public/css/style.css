@@ -14,6 +14,13 @@ a.southEast:hover {
   fill: #88001d !important;
   cursor: pointer;
 }
+a.florida:hover {
+  stroke: #d3d3d3 !important;
+  stroke-width: 0.5px;
+  stroke-linejoin: round;
+  fill: #f7afbe !important;
+  cursor: pointer;
+}
 .northEast:hover {
   stroke: #d3d3d3 !important;
   stroke-width: 0.5px;
