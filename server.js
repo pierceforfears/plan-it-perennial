@@ -17,11 +17,11 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // Routes
-// require("./routes/api-routes.js")(app);
-// require("./routes/html-routes.js")(app);
+require("./routes/api-routes.js")(app);
+require("./routes/html-routes.js")(app);
 
 // Sync models and turn on server
-db.sequelize.sync({ force: true }).then(function () {
+db.sequelize.sync().then(function () {
     app.listen(PORT, function () {
         console.log("App listening on http://localhost:" + PORT);
     });

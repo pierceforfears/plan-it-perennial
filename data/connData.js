@@ -9,6 +9,11 @@ module.exports = [
         regionId: 3,
         plantId: 1,
     },
+
+    {
+        regionId: 6,
+        plantId: 1,
+    },
     {
         regionId: 1,
         plantId: 2,
@@ -32,6 +37,10 @@ module.exports = [
 
     {
         regionId: 5,
+        plantId: 5,
+    },
+    {
+        regionId: 6,
         plantId: 5,
     },
     {
@@ -80,6 +89,17 @@ module.exports = [
         plantId: 11,
     },
 
+
+    {
+        regionId: 5,
+        plantId: 11,
+    },
+
+    {
+        regionId: 6,
+        plantId: 11,
+    },
+
     {
         regionId: 2,
         plantId: 12,
@@ -116,6 +136,11 @@ module.exports = [
     },
 
     {
+        regionId: 6,
+        plantId: 14,
+    },
+
+    {
         regionId: 2,
         plantId: 15,
     },
@@ -138,6 +163,11 @@ module.exports = [
 
     {
         regionId: 5,
+        plantId: 16,
+    },
+
+    {
+        regionId: 6,
         plantId: 16,
     },
 
@@ -213,6 +243,11 @@ module.exports = [
 
     {
         regionId: 4,
+        plantId: 25,
+    },
+
+    {
+        regionId: 6,
         plantId: 25,
     },
 
