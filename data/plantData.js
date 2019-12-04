@@ -3,7 +3,7 @@ module.exports = [
     {
         common_name: "Golden Alexanders",
         scientific_name: "Zizia aurea",
-        img_URL: "",
+        img_URL: "assets/thumbs/golden-alexanders.jpg",
         description: "Host plant for black swallowtail butterfly; shallow nectaries attract small beneficial wasps, bees, and flies",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -11,7 +11,7 @@ module.exports = [
     {
         common_name: "Spiderwort",
         scientific_name: "Tradescantia virginiana",
-        img_URL: "",
+        img_URL: "assets/thumbs/spiderwort.jpg",
         description: "The attractive flowers of this unique iris-relative are frequented by bumble bees and other pollinators; shade tolerant",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -20,7 +20,7 @@ module.exports = [
     {
         common_name: "Blue vervain",
         scientific_name: "Verbena hastata",
-        img_URL: "",
+        img_URL: "assets/thumbs/blue-vervain.jpg",
         description: "A preferred nectar plant for bees, butterflies, hover flies, and bee flies; choose Verbena stricta for drier soils",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -29,7 +29,7 @@ module.exports = [
     {
         common_name: "Boneset",
         scientific_name: "Eupatorium perfoliatum",
-        img_URL: "",
+        img_URL: "assets/thumbs/boneset.jpg",
         description: "Flat-topped clusters of fluffy, nectar-rich flowers attract many kinds of insects; tolerant of partial shade and wet soils",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -38,7 +38,7 @@ module.exports = [
     {
         common_name: "Field thistle",
         scientific_name: "Cirsium discolor",
-        img_URL: "",
+        img_URL: "assets/thumbs/field-thistle.jpg",
         description: "Not to be confused with non-native thistles; a now uncommon but important plant for butterflies and bumble bees",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -56,7 +56,7 @@ module.exports = [
     {
         common_name: "New England aster",
         scientific_name: "Symphyotrichum novae-angliae",
-        img_URL: "",
+        img_URL: "assets/thumbs/new-england-aster.jpg",
         description: "One of the latest fall-blooming plants; frequented by honey bees and pre-hibernation bumble bee queens",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -93,7 +93,7 @@ module.exports = [
     {
         common_name: "Smooth penstemon",
         scientific_name: "Penstemon digitalis",
-        img_URL: "",
+        img_URL: "assets/thumbs/smooth-penstemon.jpg",
         description: "Semi-evergreen; prolific nectar producer; visited by many butterflies, moths, and bees, including honey bees",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -111,7 +111,7 @@ module.exports = [
     {
         common_name: "Seaside goldenrod",
         scientific_name: "Solidago sempervirens",
-        img_URL: "",
+        img_URL: "assets/thumbs/seaside-goldenrod.jpg",
         description: "Goldenrods (Solidago spp.) are vital late nectar sources for migrating insects, pre-hibernation bumble bee queens, and honey bees",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -129,7 +129,7 @@ module.exports = [
     {
         common_name: "Wild indigo",
         scientific_name: "Baptisia tinctoria",
-        img_URL: "",
+        img_URL: "assets/thumbs/wild-indigo.jpg",
         description: "Fixes nitrogen that can be used by other plants; attracts a wide diversity of pollinators, including the beautiful Io moth (Automeris io)",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -138,7 +138,7 @@ module.exports = [
     {
         common_name: "Wild bergamot",
         scientific_name: "Monarda fistulosa",
-        img_URL: "",
+        img_URL: "assets/thumbs/wild-bergamot.jpg",
         description: "Hawk moths, hummingbirds, and long-tongued bumble bees (such as Bombus pensylvanicus) are common visitors",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -147,7 +147,7 @@ module.exports = [
     {
         common_name: "Sneezeweed",
         scientific_name: "Helenium autumnale",
-        img_URL: "",
+        img_URL: "assets/thumbs/sneezeweed.jpg",
         description: "Striking flowers with domed centers and distinctive tri-lobed rays; attracts leafcutter bees, bumble bees, and honey bees",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -166,7 +166,7 @@ module.exports = [
     {
         common_name: "Lanceleaf coreopsis",
         scientific_name: "Coreopsis lanceolata",
-        img_URL: "",
+        img_URL: "assets/thumbs/lanceleaf-coreopsis.jpg",
         description: "Extended bloom period makes coreopsis a valuable addition to pollinator gardens; host plant for the common tan wave moth",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -175,7 +175,7 @@ module.exports = [
     {
         common_name: "Black-eyed Susan",
         scientific_name: "Rudbeckia hirta",
-        img_URL: "",
+        img_URL: "assets/thumbs/black-eyed-susan.jpg",
         description: "Supports bees and birds with nectar and seed; host for the gorgone checkerspot and bordered patch butterfly; easy to grow",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -184,7 +184,7 @@ module.exports = [
     {
         common_name: "Eastern rosemallow",
         scientific_name: "Hibiscus moscheutos",
-        img_URL: "",
+        img_URL: "assets/thumbs/eastern-rosemallow.jpg",
         description: "Showy flowers offer nectar to many insects; a host for the specialist hibiscus bee, gray hairstreak, and Io and other moths",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -193,7 +193,7 @@ module.exports = [
     {
         common_name: "Narrowleaf sunflower",
         scientific_name: "Helianthus angustifolius",
-        img_URL: "",
+        img_URL: "assets/thumbs/narrowleaf-sunflower.jpg",
         description: "Supports many longhorned bees that are sunflower specialists; host plant for numerous butterflies and moths",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -202,7 +202,7 @@ module.exports = [
     {
         common_name: "Joe Pye weed",
         scientific_name: "Eutrochium fistulosum",
-        img_URL: "",
+        img_URL: "assets/thumbs/joe-pye-weed.jpg",
         description: "Primarily known as a butterfly plant, Joe Pye weed also attracts bees; tolerant of partial shade and wet soils",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -212,7 +212,7 @@ module.exports = [
     {
         common_name: "Dotted horsemint",
         scientific_name: "Monarda punctata",
-        img_URL: "",
+        img_URL: "assets/thumbs/dotted-horsemint.jpg",
         description: "Showy pink bracts attract bees, butterflies, wasps (aphid predators) to nectar-rich blooms; fragrant foliage produces thymol",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -221,7 +221,7 @@ module.exports = [
     {
         common_name: "Rattlesnake master",
         scientific_name: "Eryngium yuccifolium",
-        img_URL: "",
+        img_URL: "assets/thumbs/rattlesnake-master.jpg",
         description: "Supports a huge diversity of bees, butterflies, and other insects with beautiful, unique flowers; E. aquaticum also recommended",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -231,7 +231,7 @@ module.exports = [
     {
         common_name: "Wild lupine",
         scientific_name: "Lupinus perennis",
-        img_URL: "",
+        img_URL: "assets/thumbs/wild-lupine.jpg",
         description: "Larval host plant for the endangered Karner blue butterfly (Lycaeides melissa samuelis; shown), and various other blue butterflies",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -240,7 +240,7 @@ module.exports = [
     {
         common_name: "Cup plant",
         scientific_name: "Silphium perfoliatum",
-        img_URL: "",
+        img_URL: "assets/thumbs/cup-plant.jpg",
         description: "Attracts many bees and butterflies; thick hollow stems make excellent nests for leafcutter bees and small carpenter bees (Ceratina spp.)",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -249,7 +249,7 @@ module.exports = [
     {
         common_name: "Bottle gentian",
         scientific_name: "Gentiana andrewsii",
-        img_URL: "",
+        img_URL: "assets/thumbs/bottle-gentian.jpg",
         description: "Its flower petals never open; almost exclusively pollinated by bumble bees, which pry the petals apart to climb inside",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -259,7 +259,7 @@ module.exports = [
     {
         common_name: "Cream wild indigo",
         scientific_name: "Baptisia bracteata",
-        img_URL: "",
+        img_URL: "assets/thumbs/cream-wild-indigo.jpg",
         description: "Visited by queen bumble bees (Bombus spp.) and other long-tongued bees",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -268,7 +268,7 @@ module.exports = [
     {
         common_name: "Purple prairie clover",
         scientific_name: "Dalea purpurea",
-        img_URL: "",
+        img_URL: "assets/thumbs/purple-prairie-clover.jpg",
         description: "Honey bees and bumble bees are voracious visitors, as well as several specialist polyester bees (Colletes spp.)",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -297,7 +297,7 @@ module.exports = [
     {
         common_name: "Antelope horns milkweed",
         scientific_name: "Asclepias asperula ssp. capricornu",
-        img_URL: "",
+        img_URL: "assets/thumbs/antelope-horns-milkweed.jpg",
         description: "Asclepias spp. are host plants for monarch, queen, and soldier (Danaus spp.) butterflies; highly attractive to bees and beneficial insects",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -306,7 +306,7 @@ module.exports = [
     {
         common_name: "Lemon beebalm",
         scientific_name: "Monarda citriodora",
-        img_URL: "",
+        img_URL: "assets/thumbs/lemon-beebalm.jpg",
         description: "Hawk moths, hummingbirds, and long-tongued bees (including bumble bees) are visitors; grows as an annual, biennial, or perennial",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -315,7 +315,7 @@ module.exports = [
     {
         common_name: "Baldwin's Ironweed",
         scientific_name: "Vernonia baldwinii",
-        img_URL: "",
+        img_URL: "assets/thumbs/baldwins-ironweed.jpg",
         description: "Grows under a variety of conditions; spreads via rhizomes; this and other Vernonia spp. attract late summer butterflies and bees",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -324,7 +324,7 @@ module.exports = [
     {
         common_name: "Maximilian sunflower",
         scientific_name: "Helianthus maximiliani",
-        img_URL: "",
+        img_URL: "assets/thumbs/maximilian-sunflower.jpg",
         description: "This plant may spread easily, via rhizome and seed; very attractive to a huge diversity of bees and other pollinators",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -342,7 +342,7 @@ module.exports = [
     {
         common_name: "Scarlet globemallow",
         scientific_name: "Sphaeralcea coccinea",
-        img_URL: "",
+        img_URL: "assets/thumbs/scarlet-globemallow.jpg",
         description: "Sphaeralcea spp. are drought tolerant; visited by bees and butterflies; a host plant for the small checkered skipper (Pyrgus scriptura)",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -379,7 +379,7 @@ module.exports = [
     {
         common_name: "American vetch",
         scientific_name: "Vicia americana",
-        img_URL: "",
+        img_URL: "assets/thumbs/american-vetch.jpg",
         description: "Vining legume; visited by bumble bees, honey bees, and sweat bees; attractive to birds and other wildlife",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -388,7 +388,7 @@ module.exports = [
     {
         common_name: "Showy ticktrefoil",
         scientific_name: "Desmodium canadense",
-        img_URL: "",
+        img_URL: "assets/thumbs/showy-ticktrefoil.jpg",
         description: "Legume; grows well in moist sandy or rocky soils; highly attractive to bees and beneficial flies",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -397,7 +397,7 @@ module.exports = [
     {
         common_name: "Stiff sunflower",
         scientific_name: "Helianthus pauciflorus",
-        img_URL: "",
+        img_URL: "assets/thumbs/stiff-sunflower.jpg",
         description: "Easy to grow, but can spread; draws in many pollinators",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -425,7 +425,7 @@ module.exports = [
     {
         common_name: "Western pearly everlasting",
         scientific_name: "Anaphalis margaritacea",
-        img_URL: "",
+        img_URL: "assets/thumbs/western-pearly-everlasting.jpg",
         description: "Caterpillars of the American painted lady butterfly (Vanessa virginiensis) and the painted lady butterfly (Vanessa cardui) feed on its leaves",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -434,7 +434,7 @@ module.exports = [
     {
         common_name: "Prickly pear cactus",
         scientific_name: "Opuntia spp.",
-        img_URL: "",
+        img_URL: "assets/thumbs/prickly-pear-cactus.jpg",
         description: "Edible but must be properly prepared so that spines are not injested",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -443,7 +443,7 @@ module.exports = [
     {
         common_name: "Rocky Mountain penstemon",
         scientific_name: "Penstemon strictus",
-        img_URL: "",
+        img_URL: "assets/thumbs/rocky-mountain-penstemon.jpg",
         description: "Royal blue to purple flowers; Attracts a large number of native bee species",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -452,7 +452,7 @@ module.exports = [
     {
         common_name: "Yellow bee plant",
         scientific_name: "Cleome lutea",
-        img_URL: "",
+        img_URL: "assets/thumbs/yellow-bee-plant.jpg",
         description: "Named for its yellow flowers and its bee-attracting qualities",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -461,7 +461,7 @@ module.exports = [
     {
         common_name: "Sego Lily",
         scientific_name: "Calochortus nuttallii",
-        img_URL: "",
+        img_URL: "assets/thumbs/sego-lily.jpg",
         description: "The state flower of Utah; Roots were consumed during a famine in the 19th century",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -489,7 +489,7 @@ module.exports = [
     {
         common_name: "Rainbow cactus",
         scientific_name: "Echinocereus pectinatus",
-        img_URL: "",
+        img_URL: "assets/thumbs/rainbow-cactus.jpg",
         description: "Keep soil completely dry as it is prone to root rot",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -498,7 +498,7 @@ module.exports = [
     {
         common_name: "Wholeleaf Indian paintbrush",
         scientific_name: "Castilleja integra",
-        img_URL: "",
+        img_URL: "assets/thumbs/wholeleaf-indian-paintbrush.jpg",
         description: "Roots grow extensively, avoid transplanting as it may kill it",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -507,7 +507,7 @@ module.exports = [
     {
         common_name: "Silver lupine",
         scientific_name: "Lupinus argenteus",
-        img_URL: "",
+        img_URL: "assets/thumbs/silver-lupine.jpg",
         description: "Important food source for butterflies",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -516,7 +516,7 @@ module.exports = [
     {
         common_name: "Sacred thorn-apple",
         scientific_name: "Datura wrightii",
-        img_URL: "",
+        img_URL: "assets/thumbs/sacred-thorn-apple.jpg",
         description: "All parts of the plant are poisonous to humans and animals, do not eat",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -525,7 +525,7 @@ module.exports = [
     {
         common_name: "Parry’s beardtongue",
         scientific_name: "Penstemon parryi",
-        img_URL: "",
+        img_URL: "assets/thumbs/parrys-beardtongue.jpg",
         description: "Can withstand extreme temperatures and lack of water",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -562,7 +562,7 @@ module.exports = [
     {
         common_name: "Cleveland sage",
         scientific_name: "Salvia clevelandii",
-        img_URL: "",
+        img_URL: "assets/thumbs/cleveland-sage.jpg",
         description: "Showy flowers attract bees, butterflies, and hummingbirds; extremely fragrant foliage; requires good drainage",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -571,7 +571,7 @@ module.exports = [
     {
         common_name: "Summer lupine",
         scientific_name: "Lupinus formosus",
-        img_URL: "",
+        img_URL: "assets/thumbs/summer-lupine.jpg",
         description: "This and other lupines are highly attractive to bumble bees and visited by many other native bees",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -580,7 +580,7 @@ module.exports = [
     {
         common_name: "California goldenrod",
         scientific_name: "Solidago velutina ssp. califonica",
-        img_URL: "",
+        img_URL: "assets/thumbs/california-goldenrod.jpg",
         description: "Important late-season forage for bees, butterflies, beneficial solitary wasps, pollen-eating soldier beetles, and more",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -616,7 +616,7 @@ module.exports = [
     {
         common_name: "Common camas",
         scientific_name: "Camassia quamash",
-        img_URL: "",
+        img_URL: "assets/thumbs/common-camas.jpg",
         description: "Slow to establish from seed; establishes better from bulb; prefers moist soil, drought-tolerant after bloom; bulbs attractive to wildlife",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -625,7 +625,7 @@ module.exports = [
     {
         common_name: "Selfheal",
         scientific_name: "Prunella vulgaris ssp. lanceolata",
-        img_URL: "",
+        img_URL: "assets/thumbs/selfheal.jpg",
         description: "Easy to establish from seed; fast-growing ground cover that will tolerate mowing or grazing; highly attractive to various pollinators",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -634,7 +634,7 @@ module.exports = [
     {
         common_name: "Hall's aster",
         scientific_name: "Symphyotrichum hallii",
-        img_URL: "",
+        img_URL: "assets/thumbs/hallsaster.jpg",
         description: "Establishes better from transplant; drought-tolerant rhizomatous plant; one of the latest fall-blooming plants",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -653,7 +653,7 @@ module.exports = [
     {
         common_name: "Pua kala",
         scientific_name: "Argemone glauca",
-        img_URL: "",
+        img_URL: "assets/thumbs/pua-kala.jpg",
         description: "Covered in spiny leaves; The only poppy native to Hawaii; Resistant to fire",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -661,7 +661,7 @@ module.exports = [
     {
         common_name: "Opelu",
         scientific_name: "Lobelia hypoleuca",
-        img_URL: "",
+        img_URL: "assets/thumbs/opelu.jpg",
         description: "Does best in full or partial sun with moist, wet soil",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -669,7 +669,7 @@ module.exports = [
     {
         common_name: "Uki'uki",
         scientific_name: "Dianella sandwicensis",
-        img_URL: "",
+        img_URL: "assets/thumbs/uki-uki.jpg",
         description: "Some forms will have bluish-purple fruits",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -679,7 +679,7 @@ module.exports = [
     {
         common_name: "Wild columbine",
         scientific_name: "Aquilegia formosa",
-        img_URL: "",
+        img_URL: "assets/thumbs/wild-columbine.jpg",
         description: "Several Native American tribes can use columbine to make perfume; Poisonous, do not eat",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -687,7 +687,7 @@ module.exports = [
     {
         common_name: "Chocolate lily",
         scientific_name: "Fritillaria camschatcensis",
-        img_URL: "",
+        img_URL: "assets/thumbs/chocolate-lily.jpg",
         description: "Referred to as the 'skunk lily' or 'outhouse lily' due to its unpleasant smell",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -695,7 +695,7 @@ module.exports = [
     {
         common_name: "Woolly geranium",
         scientific_name: "Geranium erianthum",
-        img_URL: "",
+        img_URL: "assets/thumbs/wooly-geranium.jpg",
         description: "This flowering plant is also found in China, Japan, and Russia",
         createdAt: new Date(),
         updatedAt: new Date()
