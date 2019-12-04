@@ -119,6 +119,7 @@ a.florida:hover {
 }
 .allContent {
   min-height: calc(100vh - 50px);
+  background-image: url("../assets/upfeathers.png");
 }
 .mainContent {
   padding-top: 15px;
@@ -132,7 +133,7 @@ a.florida:hover {
   font-weight: bold;
   border-top: 4px solid #8ebf96;
 }
-#addFlower {
+.button {
   background-color: #1d7203;
 }
 .callout {
@@ -158,7 +159,10 @@ a.florida:hover {
   font-family: "Rambla", sans-serif;
   color: #2f4032;
 }
-.windowView {
-  background-image: url("../assets/upfeathers.png");
-  background-color: rgb(167, 238, 145);
+form {
+  padding-top: 20px;
+}
+#addFlower {
+  margin-top: 25px;
+  margin-right: 25px;
 }
