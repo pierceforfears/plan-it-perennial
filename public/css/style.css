@@ -1,5 +1,5 @@
 .state a {
-  fill: #d3d3d3;
+  fill: rgb(167, 238, 145);
 }
 .content {
   display: flex;
@@ -117,21 +117,41 @@ a.southEast:hover {
   padding-top: 15px;
 }
 .footer {
+  background-image: url("../assets/flowerbackground2.jpeg");
   width: 100%;
   height: 50px;
+  font-family: "Rambla", sans-serif;
+  color: rgb(167, 238, 145);
+  font-weight: bold;
+  border-top: 4px solid #8ebf96;
 }
 #addFlower {
   background-color: #1d7203;
 }
 .callout {
   background-image: url("../assets/flowerbackground2.jpeg");
+  background-color: rgb(167, 238, 145);
   margin-bottom: 0rem;
   border: 0px;
+  border-bottom: 4px solid #8ebf96;
 }
 .headerText {
-  color: antiquewhite;
+  font-family: "Leckerli One", cursive;
+  color: rgb(167, 238, 145);
+  font-size: 75px;
+  font-weight: bold;
+  text-shadow: -1px 0 #fff, 0 2px #fff, 2px 0 #fff, 0 -1px #fff;
+}
+.subheaderText {
+  font-family: "Rambla", sans-serif;
+  color: rgb(167, 238, 145);
   font-weight: bold;
 }
+.mainContent {
+  font-family: "Rambla", sans-serif;
+  color: #2f4032;
+}
 .windowView {
+  background-image: url("../assets/upfeathers.png");
   background-color: rgb(167, 238, 145);
 }
