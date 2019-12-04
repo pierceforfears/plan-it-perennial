@@ -41,10 +41,7 @@ module.exports = function (sequelize, DataTypes) {
     Plant.associate = function (models) {
         //A  plant must belong to a region
         Plant.belongsToMany(models.Region, {
-            through: 'regionPlant',
-            as: 'regions',
-            foreignKey: 'plantId',
-            otherKey: 'regionId'
+            through: 'regionPlant'
         });
     };
 
