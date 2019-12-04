@@ -113,11 +113,25 @@ a.southEast:hover {
 .allContent {
   min-height: calc(100vh - 50px);
 }
-
+.mainContent {
+  padding-top: 15px;
+}
 .footer {
   width: 100%;
   height: 50px;
 }
 #addFlower {
   background-color: #1d7203;
+}
+.callout {
+  background-image: url("../assets/flowerbackground2.jpeg");
+  margin-bottom: 0rem;
+  border: 0px;
+}
+.headerText {
+  color: antiquewhite;
+  font-weight: bold;
+}
+.windowView {
+  background-color: rgb(167, 238, 145);
 }
