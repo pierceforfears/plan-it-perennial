@@ -18,7 +18,6 @@ module.exports = {
     connData.forEach(function (element) {
       let plantIdx = element.plantId - 1;
       let regionIdx = element.regionId - 1;
-      console.log(plantArr[plantIdx]);
       promises.push(plantArr[plantIdx].addRegion(regionArr[regionIdx]));
     });
 

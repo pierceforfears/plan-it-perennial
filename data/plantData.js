@@ -469,9 +469,9 @@ module.exports = [
 
     {
         common_name: "Twinflower",
-        scientific_name: "Linnea borealis",
+        scientific_name: "Linnaea borealis",
         img_URL: "",
-        description: "",
+        description: "A great groundcover; does not tolerate drought",
         createdAt: new Date(),
         updatedAt: new Date()
     },
@@ -480,7 +480,7 @@ module.exports = [
         common_name: "Mountain pennyroyal",
         scientific_name: "Monardella odoratissima",
         img_URL: "",
-        description: "",
+        description: "Fragrant plant that attracts hummingbirds",
         createdAt: new Date(),
         updatedAt: new Date()
     },
@@ -535,7 +535,7 @@ module.exports = [
         common_name: "Desert tobacco",
         scientific_name: "Nicotiana obtusifolia",
         img_URL: "",
-        description: "",
+        description: "As its name suggests this plant contains nicotine",
         createdAt: new Date(),
         updatedAt: new Date()
     },
@@ -544,7 +544,7 @@ module.exports = [
         common_name: "Scarlet gilia",
         scientific_name: "Ipomopsis aggregata ssp. formosissima",
         img_URL: "",
-        description: "",
+        description: "Flowers can be red, white, or pink; attracts moths and hummingbirds",
         createdAt: new Date(),
         updatedAt: new Date()
     },
@@ -553,7 +553,7 @@ module.exports = [
         common_name: "Mountain goldenbanner",
         scientific_name: "Thermopsis montana",
         img_URL: "",
-        description: "",
+        description: "Easy to grow; attracts bumblebees",
         createdAt: new Date(),
         updatedAt: new Date()
     },
@@ -675,7 +675,7 @@ module.exports = [
         updatedAt: new Date()
     },
 
-    //Region 14 (Alaska)
+    //75-77 Region 14 (Alaska)
     {
         common_name: "Wild columbine",
         scientific_name: "Aquilegia formosa",

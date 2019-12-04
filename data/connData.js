@@ -501,18 +501,4 @@ module.exports = [
         plantId: 77,
     },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]
