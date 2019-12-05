@@ -5,12 +5,23 @@ function getData(id) {
     let newPlant = data.Plants;
     let regionPlants = [];
     for (let i = 0; i < newPlant.length; i++) {
-      newPlant.push(regionPlants[i]);
-      $(".main-section").append(`<img src="../${newPlant[i].img_url}">`);
-      $(".main-section").append(`<h4>${newPlant[i].common_name}</h4>`);
-      $(".main-section").append(`<h5>${newPlant[i].scientific_name}</h5>`);
-      $(".main-section").append(`<p>${newPlant[i].description}</p>`);
-      $(".main-section").append(`<hr/>`);
+      if (newPlant[i] !== undefined) {
+        newPlant.push(regionPlants[i]);
+        $(".grid-container").append(`
+      <div class="media-object">
+      <div class="media-object-section">
+        <div class="thumbnail">
+        <img src="../${newPlant[i].img_url}">
+        </div>
+      </div>
+      <div class="media-object-section">
+      <h3>${newPlant[i].common_name}</h3>
+      <h5><em>${newPlant[i].scientific_name}</em></h5>
+      <p>${newPlant[i].description}</p>
+      </div>
+    </div>
+      `);
+      }
     }
   });
 }
