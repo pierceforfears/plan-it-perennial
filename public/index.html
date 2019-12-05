@@ -16,9 +16,6 @@
       src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/js/foundation.min.js"
       crossorigin="anonymous"
     ></script>
-    <script>
-      $(document).foundation();
-    </script>
     <link
       href="https://fonts.googleapis.com/css?family=Leckerli+One|Rambla:700i&display=swap"
       rel="stylesheet"
@@ -37,6 +34,9 @@
         </h5>
       </div>
       <div class="windowView">
+        <div class="grid-x align-right">
+          <button class="button" id="addsFlower">Please add a flower</button>
+        </div>
         <div class="mainContent">
           <p class="text-center">
             Click on a state. You will be provided with a plethora of plants
@@ -379,6 +379,9 @@
         </div>
       </div>
     </footer>
+    <script>
+        $(document).foundation();
+      </script>
     <script src="./js/app.js"></script>
   </body>
 </html>

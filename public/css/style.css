@@ -162,7 +162,8 @@ a.florida:hover {
 form {
   padding-top: 20px;
 }
-#addFlower {
+#addFlower,
+#addsFlower {
   margin-top: 25px;
   margin-right: 25px;
 }
