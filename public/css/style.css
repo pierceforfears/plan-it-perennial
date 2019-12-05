@@ -74,7 +74,7 @@ a.florida:hover {
   stroke: #d3d3d3 !important;
   stroke-width: 0.5px;
   stroke-linejoin: round;
-  fill: #ffffff !important;
+  fill: #bc9cb0 !important;
   cursor: pointer;
 }
 .southWest:hover {
@@ -102,7 +102,7 @@ a.florida:hover {
   stroke: #d3d3d3 !important;
   stroke-width: 0.5px;
   stroke-linejoin: round;
-  fill: #00ffff !important;
+  fill: #ec4e20 !important;
   cursor: pointer;
 }
 #info-box {
@@ -166,4 +166,14 @@ form {
 #addsFlower {
   margin-top: 25px;
   margin-right: 25px;
+}
+.button {
+  font-family: "Rambla", sans-serif;
+  border-radius: 4px;
+}
+.media-object-section,
+h3,
+h5 {
+  font-family: "Rambla", sans-serif;
+  color: #2f4032;
 }
