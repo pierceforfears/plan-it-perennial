@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Compressed CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/css/foundation.min.css"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <!-- Compressed JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/js/foundation.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Leckerli+One|Rambla:700i&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Add Flowers</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <!-- Compressed CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/css/foundation.min.css"
-    crossorigin="anonymous" />
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-  <!-- Compressed JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/js/foundation.min.js"
-    crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css?family=Leckerli+One|Rambla:700i&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css" />
-  <title>Add Flowers</title>
-</head>
-
-<body>
-  <div class="allContent">
+  <body>
     <div class="callout">
       <h1 class="text-center headerText">Plant-It-Perennial!</h1>
       <hr />
@@ -26,47 +35,63 @@
         We make it easy to love plants for a lifetime
       </h5>
     </div>
-    <form class="grid-container">
-      <label>Select Your Region</label>
-      <select>
-        <option>Select One</option>
-        <option value="1">Northeast</option>
-        <option value="2">Mid-Atlantic</option>
-        <option value="3">Southeast</option>
-        <option value="4">Florida</option>
-        <option value="5">Great Lakes</option>
-        <option value="6">Midwest</option>
-        <option value="7">Southern Plains</option>
-        <option value="8">Northern Plains</option>
-        <option value="9">Mountain</option>
-        <option value="10">Southwest</option>
-        <option value="11">California</option>
-        <option value="12">Maritime Northwest</option>
-        <option value="13">Hawaii</option>
-        <option value="14">Alaska</option>
-      </select>
-      <label>Please Input Common Name
-        <input type="text" value="common_name" placeholder="Enter Here" />
-      </label>
-      <label>Please Input Scientific Name
-        <input type="text" value="scientific_name" placeholder="Enter Here" />
-      </label>
-      <label>Please Paste Image URL
-        <input type="text" value="img_url" placeholder="Paste Here" />
-      </label>
-      <label>
-        Please Enter a Short Description
-        <textarea value="description" cols="30" rows="10" placeholder="Describe the Plant"></textarea>
-      </label>
-    </form>
-  </div>
-  <footer class="footer">
-    <div class="title-bar align-center">
-      <div class="title-bar">
-        <div class="title-bar-title">© 2019 Copyright Team Red</div>
+    <div class="allContent">
+      <div class="windowView">
+        <form class="grid-container">
+          <label>Select Your Region</label>
+          <select>
+            <option>Select One</option>
+            <option value="1">Northeast</option>
+            <option value="2">Mid-Atlantic</option>
+            <option value="3">Southeast</option>
+            <option value="4">Florida</option>
+            <option value="5">Great Lakes</option>
+            <option value="6">Midwest</option>
+            <option value="7">Southern Plains</option>
+            <option value="8">Northern Plains</option>
+            <option value="9">Mountain</option>
+            <option value="10">Southwest</option>
+            <option value="11">California</option>
+            <option value="12">Maritime Northwest</option>
+            <option value="13">Hawaii</option>
+            <option value="14">Alaska</option>
+          </select>
+          <label
+            >Please Input Common Name
+            <input type="text" value="common_name" placeholder="Enter Here" />
+          </label>
+          <label
+            >Please Input Scientific Name
+            <input
+              type="text"
+              value="scientific_name"
+              placeholder="Enter Here"
+            />
+          </label>
+          <label
+            >Please Paste Image URL
+            <input type="text" value="img_url" placeholder="Paste Here" />
+          </label>
+          <label>
+            Please Enter a Short Description
+            <input
+              value="description"
+              type="text"
+              placeholder="Describe the Plant"
+            />
+          </label>
+          <button type="button" class="button">
+            Submit Flower
+          </button>
+        </form>
       </div>
     </div>
-  </footer>
-</body>
-
+    <footer class="footer">
+      <div class="title-bar align-center">
+        <div class="title-bar">
+          <div class="title-bar-title">© 2019 Copyright Team Red</div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
