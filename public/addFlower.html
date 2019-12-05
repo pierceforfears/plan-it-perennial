@@ -16,9 +16,6 @@
       src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/js/foundation.min.js"
       crossorigin="anonymous"
     ></script>
-    <script>
-      $(document).foundation();
-    </script>
     <link
       href="https://fonts.googleapis.com/css?family=Leckerli+One|Rambla:700i&display=swap"
       rel="stylesheet"
@@ -72,11 +69,28 @@
             Please Enter a Short Description
             <input id="describe" type="text" placeholder="Describe the Plant" />
           </label>
-          <button type="button" class="button" id="addFlower">
+          <button
+            type="button"
+            class="button"
+            id="addFlower"
+            data-open="addedFlower"
+          >
             Submit Flower
           </button>
         </form>
       </div>
+    </div>
+    <div class="reveal" id="addedFlower" data-reveal>
+      <h1>Thank You!</h1>
+      <p class="lead">Your flower has been added.</p>
+      <button
+        class="close-button"
+        data-close
+        aria-label="Close modal"
+        type="button"
+      >
+        <span aria-hidden="true">&times;</span>
+      </button>
     </div>
     <footer class="footer">
       <div class="title-bar align-center">
@@ -86,5 +100,8 @@
       </div>
     </footer>
     <script type="text/JavaScript" src="js/addFlower.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
   </body>
 </html>
