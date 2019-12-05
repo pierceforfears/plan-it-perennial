@@ -6,10 +6,9 @@ The user will visit the website and input their location.  The app will then che
 
 ​
 #### Team Members
-Bradley Pagano
-James Abney
-Robert Pierce
-Farrah Carter
+* Bradley Pagano
+* Robert Pierce
+* Farrah Carter
 ​
 ### Technologies Used
 
