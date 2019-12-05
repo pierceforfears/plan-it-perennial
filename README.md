@@ -1,8 +1,8 @@
-### Plan-It-Perennial - Team Red
+### Plan-It Perennial - Team Red
 ​
 ### Project Goal
 
-The user will visit the website and input their location.  The app will then check the climate in that area and also what the current season is.  After retrieving the weather data, the app wil then check the plant database and determine which plants would do well in the user's location at that season.  The user can also check if a particular plant would do well in their area.  The app will then display all these results to the user on the page.
+The user will visit the website and select their region on the map.  The app will then access our database of plants and pull up the plants that do well in their region.  The app will then display all these results to the user on the page.  The user can also add to the database any plants that did well in their area.
 
 ​
 #### Team Members
@@ -14,11 +14,11 @@ The user will visit the website and input their location.  The app will then che
 
 * jquery
 
-## API
+## References
 
-* Climate Data (Reference)
-* Trefle (Reference)
-* Dark Sky (Reference)
+* Xerces Society fo Invertebrate Conservation (https://xerces.org/)
+
+* Pollinator Partnership (https://www.pollinator.org/)
 
 ## Node Packages
 
@@ -40,20 +40,20 @@ The user will receive a list of plants that they can plant in their area.
 
 * User wants to know if a plant that they like will do well in their area.
 
-* User wants to grow food that will thrive in their garden.
+* User wants to attract pollinators and other wildlife.
 
-* User wants to start gardening and doesn't know what to start with
+* User wants to start gardening and doesn't know where to begin
 
 
 ### Tasks
 
-* Get user's location
+* Get user's region
 
-* Retrieve climate data based on location
-
-* Build plant database with climate data
+* Build plant database with region data
 
 * Display results to user
+
+* Add plant from user
 
 ​
 ### Project Requirements
