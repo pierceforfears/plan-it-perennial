@@ -1,8 +1,8 @@
 var db = require("../models");
 
-module.exports = function(app) {
+module.exports = function (app) {
   //Pulls up result for region
-  app.get("/api/regions/:region", function(req, res) {
+  app.get("/api/regions/:region", function (req, res) {
     db.Region.findOne({
       where: {
         id: req.params.region
@@ -17,13 +17,13 @@ module.exports = function(app) {
           }
         }
       ]
-    }).then(function(result) {
+    }).then(function (result) {
       return res.json(result);
     });
   });
 
   //Pulls up result for plant
-  app.get("/api/plants/:plant", function(req, res) {
+  app.get("/api/plants/:plant", function (req, res) {
     db.Plant.findOne({
       where: {
         id: req.params.plant
@@ -38,20 +38,20 @@ module.exports = function(app) {
           }
         }
       ]
-    }).then(function(result) {
+    }).then(function (result) {
       return res.json(result);
     });
   });
 
   // Displays all plants on the page
-  app.get("/api/plants", function(req, res) {
-    db.Plant.findAll({}).then(function(results) {
+  app.get("/api/plants", function (req, res) {
+    db.Plant.findAll({}).then(function (results) {
       res.json(results);
     });
   });
 
   //Adds plant to the database
-  app.post("/api/plants", async function(req, res) {
+  app.post("/api/plants", async function (req, res) {
     var newPlant = req.body;
 
     //example of request
@@ -79,4 +79,5 @@ module.exports = function(app) {
 
     res.send("Plant Added!");
   });
+
 };
