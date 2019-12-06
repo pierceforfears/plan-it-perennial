@@ -1,7 +1,11 @@
 {
   "development": {
     "username": "root",
+<<<<<<< HEAD
+    "password": "rabbitIsland",
+=======
     "password": "nonimportante",
+>>>>>>> 0f5decce3d18695485ef57b33d43c7d6e63a4942
     "database": "perennial",
     "host": "127.0.0.1",
     "dialect": "mysql",
