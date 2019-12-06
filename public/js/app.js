@@ -1,5 +1,5 @@
 function getData(id) {
-  $.get("/api/regions/" + id, function(data) {
+  $.get("/api/regions/" + id, function (data) {
     console.table(data.Plants);
     $(".main-section").empty();
     let newPlant = data.Plants;
@@ -60,11 +60,12 @@ function getData(id) {
     for (let i = 0; i < newPlant.length; i++) {
       if (newPlant[i] !== undefined) {
         newPlant.push(regionPlants[i]);
+
         $(".grid-container").append(`
       <div class="media-object">
       <div class="media-object-section">
         <div class="thumbnail">
-        <img src="../${newPlant[i].img_url}" alt="Perennial Flower">
+        <img src="../${newPlant[i].img_url}">
         </div>
       </div>
       <div class="media-object-section">
@@ -74,12 +75,18 @@ function getData(id) {
       </div>
     </div>
       `);
+
+        $("img").on("error", function () {
+          $(this).attr("src", "../assets/thumbs/placeholder.jpg");
+        });
+
       }
     }
   });
 }
 
-$(".state>a").on("click", function() {
+
+$(".state>a").on("click", function () {
   let id = $(this).data("region");
   window.location.href = "/display?regionId=" + id;
 });
