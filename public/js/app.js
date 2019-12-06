@@ -53,8 +53,9 @@ function getData(id) {
     console.log(region);
     $(".grid-container").append(`
         <div class="grid-x align-center">
-          <h2 class="regionText">${region}</h2> 
+          <h2 class="regionText">${region}</h2>
         </div>
+        <hr>
         `);
 
     for (let i = 0; i < newPlant.length; i++) {
