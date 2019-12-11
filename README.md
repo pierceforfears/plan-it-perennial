@@ -4,6 +4,10 @@
 
 The user will visit the website and select their region on the map.  The app will then access our database of plants and pull up the plants that do well in their region.  The app will then display all these results to the user on the page.  The user can also add to the database any plants that did well in their area.
 
+## Preview Site
+
+https://limitless-meadow-50947.herokuapp.com/
+
 ​
 #### Team Members
 * Bradley Pagano
